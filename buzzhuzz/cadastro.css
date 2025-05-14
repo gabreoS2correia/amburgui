@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+header{
+    height: 25%;
+    background-image: linear-gradient(#e4e4e4, #fdfdfd, transparent);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+main{
+    background-image: linear-gradient(transparent, #fff09b, #ffe65b);
+    position: relative;
+    text-align: center;
+    height: 850px;
+}
+.bemvindo{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 60px;
+}
+.prof{
+    font-family: 'Courier New', Courier, monospace;
+}
+.aluno{
+    font-family: 'Courier New', Courier, monospace;
+}
+.seccadastro1{
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    text-align: center;
+}
+.seccadastro2{
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+    text-align: center;
+}
+.caixatexto{
+    height: 45px;
+    width: 325px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #613a18;
+}
+.botao{
+    border: 2px solid;
+    border-color: black;
+    background-color:#613a18;
+    color: white;
+    border-radius: 50px;
+    width: 200px;
+    height: 55px;
+}
+.container {
+  width: 100%;
+  height: 100vh; 
+  position: relative;
+}
+
+.linha-vertical {
+  width: 2px; 
+  height: 80%; 
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
