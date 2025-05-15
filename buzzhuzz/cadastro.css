@@ -12,7 +12,15 @@ main{
     background-image: linear-gradient(transparent, #fff09b, #ffe65b);
     position: relative;
     text-align: center;
-    height: 850px;
+    height: 800px;
+}
+footer{
+    height: 25%;
+    background-image: linear-gradient(transparent, #e4e4e4, #fdfdfd);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+
 }
 .bemvindo{
     font-family: 'Courier New', Courier, monospace;
@@ -20,30 +28,48 @@ main{
 }
 .prof{
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 50px;
 }
 .aluno{
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 50px;
 }
 .seccadastro1{
+    border: solid, #ffffff;
+    border-radius: 20px;
     height: 550px;
     width: 500px;
     position: absolute;
-    top: 200px;
+    top: 70px;
     left: 250px;
     text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 .seccadastro2{
+    border: solid, #ffffff;
+    border-radius: 20px;
     height: 550px;
     width: 500px;
     position: absolute;
-    top: 200px;
-    left: 1200px;
+    top: 70px;
+    left: 1150px;
     text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 .caixatexto{
     height: 45px;
     width: 325px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 20px;
     border-radius: 10px;
     border: 2px solid #613a18;
@@ -64,11 +90,12 @@ main{
 }
 
 .linha-vertical {
+  border: 1px solid #000000;
   width: 2px; 
-  height: 80%; 
+  height: 70%; 
   background-color: #000;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
