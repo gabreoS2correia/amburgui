@@ -3,16 +3,13 @@
 }
 header{
     height: 25%;
-    background-image: linear-gradient(#e4e4e4, #fdfdfd, transparent);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;    
+    background-image: linear-gradient(#e4e4e4, #fdfdfd, transparent);  
 }
 main{
-    background-image: linear-gradient(transparent, #fff09b, #ffe65b);
+    background-image: linear-gradient(transparent, #fff09b, #ffe65b, transparent);
     position: relative;
     text-align: center;
-    height: 800px;
+    height: 900px;
 }
 footer{
     height: 25%;
@@ -26,6 +23,7 @@ footer{
     font-family: 'Courier New', Courier, monospace;
     margin-top: 60px;
 }
+
 .prof{
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 50px;
@@ -35,13 +33,13 @@ footer{
     margin-bottom: 50px;
 }
 .seccadastro1{
-    border: solid, #ffffff;
+    border: solid, #ffda33;
     border-radius: 20px;
-    height: 550px;
-    width: 500px;
+    height: 450px;
+    width: 400px;
     position: absolute;
     top: 70px;
-    left: 250px;
+    left: 280px;
     text-align: center;
     background-color: #ffffff;
     display: flex;
@@ -51,13 +49,13 @@ footer{
     margin: 20px;
 }
 .seccadastro2{
-    border: solid, #ffffff;
-    border-radius: 20px;
-    height: 550px;
-    width: 500px;
+    border: solid, #ffda33;
+    border-radius: 30px;
+    height: 450px;
+    width: 400px;
     position: absolute;
     top: 70px;
-    left: 1150px;
+    left: 1180px;
     text-align: center;
     background-color: #ffffff;
     display: flex;
@@ -90,10 +88,10 @@ footer{
 }
 
 .linha-vertical {
-  border: 1px solid #000000;
+  border: 1px solid #613a18;
   width: 2px; 
   height: 70%; 
-  background-color: #000;
+  background-color: #613a18;
   position: absolute;
   top: 40%;
   left: 50%;
