@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 25%;
+    background-image: url(img/fundo.png);
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-size: cover;
+    background-image: url(img/petta3.gif);
+    position: relative;
+    text-align: center;
+    height: 700px;
+}
+footer{
+    height: 25%;
+    background-image: url(img/fundo.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+
+}
+.prof{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+.aluno{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+.seccadastro1{
+    border: dotted, #000000;
+    border-radius: 1000px;
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    top: 70px;
+    left: 280px;
+    text-align: center;
+    background-color: #ff73f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.seccadastro2{
+    border: dotted, #000000;
+    border-radius: 1000px;
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    top: 70px;
+    left: 1180px;
+    text-align: center;
+    background-color: #ff73f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.caixatexto{
+    background-image: url(img/petta2.gif);
+    background-color: aquamarine;
+    height: 45px;
+    width: 325px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 8px solid #613a18;
+}
+.botao{
+    border: 2px solid;
+    border-color: black;
+    background-color:#613a18;
+    color: white;
+    border-radius: 50px;
+    width: 200px;
+    height: 55px;
+}
+.logo{
+
+    height: 100px;
+
+}
