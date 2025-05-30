@@ -40,7 +40,7 @@ footer{
     top: 70px;
     left: 280px;
     text-align: center;
-    background-color: #ff73f8;
+    background-image:url(img/fundo.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +56,7 @@ footer{
     top: 70px;
     left: 1180px;
     text-align: center;
-    background-color: #ff73f8;
+    background-image:url(img/fundo.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
