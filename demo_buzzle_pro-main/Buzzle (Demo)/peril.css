@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(imagens/colmeia2.png);  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.perfil-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: #613a18;
+  margin-bottom: 20px;
+}
+
+.foto-perfil {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.foto-perfil img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #613a18;
+  margin-bottom: 10px;
+}
+
+.foto-perfil input[type="file"] {
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #613a18;
+}
+.perfil-formulario label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #613a18;
+}
+
+.perfil-formulario input,
+.perfil-formulario select,
+.perfil-formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 2px solid #613a18;;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.botao-salvar {
+  flex: 1;
+  background-color: var(--amarelo);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao-voltar {
+  flex: 1;
+  background-color: var(--marrom);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao-salvar:hover {
+  background-color: #f0c000;
+}
+
+.botao-voltar:hover {
+  background-color: #4a2e12;
+}
