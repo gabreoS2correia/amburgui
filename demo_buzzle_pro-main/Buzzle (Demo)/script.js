@@ -168,6 +168,24 @@ function amborgui(){
     }
 }
 
+//REDIRECIONAMENTOS HOMEALUNO
+function qzredirect(){
+    window.location.href = "entrar-quiz.html";
+}
+
+function turedirect(){
+    window.location.href = "entrar-turma.html";
+}
+
+//WAGNER GOSTA DE PORNOGRAFIA GOSTA DE WAGNER PORNO ATOR PORNO DE WAGNER E PORNOGRAFIA DE WAGNER PORNO
+function cqzredirect(){
+    window.location.href = "coco.html";
+}
+
+function cturedirect(){
+    window.location.href = "merda.html";
+}
+
 //CARROSSEL HOMEPAGE
 function moveSlide(step) {
     const slide = document.querySelector('.divcarrossel');

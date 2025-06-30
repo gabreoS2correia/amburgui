@@ -5,17 +5,17 @@ function entrarPorCodigo() {
     return;
   }
   // Redirecionar (exemplo)
-  alert("Entrando no quiz com código: " + codigo);
+  alert("Entrando na turma com código: " + codigo);
   // window.location.href = `/quiz/${codigo}`;
 }
 
 function entrarPorLink() {
   const link = document.getElementById('linkQuiz').value;
   if (!link.startsWith("http")) {
-    alert("Cole um link válido do quiz.");
+    alert("Cole um link válido da turma.");
     return;
   }
   // Redirecionar (exemplo)
-  alert("Abrindo o quiz: " + link);
+  alert("Entrando em turma: " + link);
   // window.location.href = link;
 }
