@@ -1,0 +1,98 @@
+:root {
+  --amarelo: #ffda33;
+  --branco: #f2f2f2;
+  --marrom: #613a18;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(imagens/colmeia2.png);
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--branco);
+  color: var(--marrom);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: #ffda33 solid 4px;
+  display: flex;
+  width: 90%;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.entrada-codigo,
+.entrada-link {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--branco);
+}
+
+.entrada-codigo {
+  border-right: 2px solid #ddd;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: var(--marrom);
+}
+
+input {
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  border: 2px solid var(--marrom);
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: var(--amarelo);
+  color: var(--marrom);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #f0c000;
+}
+.botao-voltar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.botao-voltar .volta {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.botao-voltar:hover .volta {
+  transform: scale(1.1);
+}

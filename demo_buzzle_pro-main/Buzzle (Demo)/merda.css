@@ -63,3 +63,24 @@ button {
 button:hover {
     background: #ffd000;
 }
+.botao-voltar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.botao-voltar .volta {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.botao-voltar:hover .volta {
+  transform: scale(1.1);
+}
