@@ -1,0 +1,176 @@
+:root {
+  --amarelo: #ffda33;
+  --branco: #f2f2f2;
+  --marrom: #613a18;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(imagens/colmeia2.png);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px;
+  color: var(--marrom);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--marrom);
+}
+
+.info-geral {
+  margin-bottom: 30px;
+  background-color: var(--amarelo);
+  padding: 20px;
+  border-radius: 12px;
+  color: var(--marrom);
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--marrom);
+  border-radius: 10px;
+}
+
+.listas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.lista {
+  flex: 1;
+  min-width: 300px;
+}
+
+.lista h2 {
+  margin-bottom: 15px;
+  color: var(--marrom);
+}
+
+.lista ul {
+  list-style: none;
+  background-color: var(--branco);
+  border: 1px solid var(--marrom);
+  border-radius: 8px;
+  padding: 15px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.lista ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.lista ul li:last-child {
+  border-bottom: none;
+}
+.tabela-status {
+  margin-top: 40px;
+}
+
+.tabela-status h2 {
+  margin-bottom: 15px;
+  color: var(--marrom);
+} 
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--branco);
+  border: 2px solid var(--marrom);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  font-size: 16px;
+}
+
+table th {
+  background-color: var(--amarelo);
+  color: var(--marrom);
+}
+
+.status-bolinha {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.verde {
+  background-color: green;
+}
+
+.vermelha {
+  background-color: red;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: var(--amarelo);
+    color: var(--azul-escuro);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffd000;
+}
+.botao-voltar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.botao-voltar .volta {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.botao-voltar:hover .volta {
+  transform: scale(1.1);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil do Aluno</title>
+  <link rel="stylesheet" href="peril.css">
+</head>
+<body>
+  <script src="perfil.js"></script>
+  <div class="perfil-container">
+    <h1>👤 Perfil do Aluno</h1>
+
+    <div class="foto-perfil">
+      <img src="https://via.placeholder.com/120" alt="Foto de perfil" id="imagemPreview">
+      <input type="file" id="imagemPerfil" accept="image/*">
+    </div>
+
+    <form class="perfil-formulario">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+      <label for="biografia">Biografia:</label>
+      <textarea id="biografia" name="biografia" rows="3" placeholder="Fale um pouco sobre você..."></textarea>
+
+      <label for="turma">Turma:</label>
+      <input type="text" id="turma" name="turma" placeholder="Ex: 6º Ano A" required>
+
+      <label for="nivel">Nível:</label>
+      <select id="nivel" name="nivel" required>
+        <option value="">Selecione</option>
+        <option value="iniciante">Iniciante</option>
+        <option value="intermediario">Intermediário</option>
+        <option value="avancado">Avançado</option>
+      </select>
+
+      <div class="botoes">
+        <button type="submit" class="botao-salvar">Salvar Alterações</button>
+        <button type="button" class="botao-voltar">Voltar</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

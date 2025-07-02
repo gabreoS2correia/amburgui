@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status do Quiz - Buzzle</title>
+  <link rel="stylesheet" href="status-quiz.css">
+</head>
+<body>
+    <a href="homeprof.html" class="botao-voltar">
+  <img src="imagens/vorta.png" alt="Voltar" class="volta">
+</a>
+  <div class="container">
+    <h1>Status do Quiz</h1>
+    <div class="tabela-status">
+  <h2>Status Geral dos Alunos</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Aluno</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaAlunos">
+      <!-- Será preenchido via JS -->
+    </tbody>
+  </table>
+</div>
+    <div class="info-geral">
+      <p><strong>Data de fechamento:</strong> <span id="dataFechamento">28/06/2025</span></p>
+      <p><strong>Respondido por:</strong> <span id="porcentagem">75%</span> dos alunos</p>
+      <progress id="barra-progresso" value="75" max="100"></progress>
+    </div>
+
+    <div class="listas">
+      <div class="lista">
+        <h2>✅ Alunos que responderam</h2>
+        <ul id="respondidos">
+          <li>Gabriel Foda da Silva</li>
+          <li>Caio Palmar Lixo</li>
+          <li>Enzo Fezes Costa</li>
+        </ul>
+      </div>
+
+      <div class="lista">
+        <h2>❌ Alunos que não responderam</h2>
+        <ul id="naoRespondidos">
+          <li>Guilherme Cu de Burro</li>
+          <li>Jeguilson Pimentel Scroblei</li>
+          <li>Rei do Sexo Bruto</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="status.js"></script>
+</body>
+</html>
