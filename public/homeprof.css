@@ -63,13 +63,65 @@ aside {
 #secnav{
     width: 100%;
     height: 25%;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.navbut{
+    width: 80%;
+    height: 3rem;
+    background-color: #fdfdfd;
+    border: 0.25rem solid #e4e4e4;
+    border-radius: 5rem;
+    color: #3a1c12;
+    font-family: buz1;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.navbut:hover{
+    filter: brightness(95%);
+    border: 0.25rem solid #ffda33;
 }
 
 #secturmas{
     width: 100%;
     height: 75%;
-    background-color: blue;
+}
+
+#astitulo{
+    text-align: center;
+    color: #3a1c12;
+    font-family: buz1;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#subsecturmas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.divtur{
+    width: 90%;
+    height: 4.5rem;
+    background-color: #fdfdfd;
+    border: 0.25rem solid #e4e4e4;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.divtur:hover{
+    filter: brightness(95%);
+    border: 0.25rem solid #ffda33;
 }
 
 main {
@@ -207,3 +259,14 @@ footer {
     height: 10rem;
     background-image: linear-gradient(#fdfdfd, #e4e4e4);
 }
+
+footer section{
+    width: 100%;
+    height: 100%;
+}
+
+footer section da section{
+    width: 30%;
+    height: 100%;
+}
+
